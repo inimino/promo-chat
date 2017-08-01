@@ -9,6 +9,13 @@ You'll use AJAX calls and implement a dynamic chat-room where you view the lates
 
 ## Specs
 
+### Get the code and set it up
+
+    git clone https://github.com/inimino/promo-chat.git
+    cd promo-chat
+    npm install # install the dependencies
+    npm start # run the development server and open the app in your browser
+
 ### View logic
 
 In the `src/App.js` file of the challenge, you'll find an HTML form `#comment-form` with two inputs (`#your-message` and `#your-name`), and a list of messages. Where are the "sample message from John" messages coming from in the code? <!--Start by coding a simple jQuery script to dynamically insert a new comment submitted with the form on the top of the comments' list, without reloading all the page.-->
