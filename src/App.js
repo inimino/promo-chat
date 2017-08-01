@@ -8,12 +8,12 @@ class CommentForm extends Component {
       <form action="#" id="comment-form" onSubmit={(e) => e.preventDefault()}>
 
         <div className="form-group">
-          <label for="your-message">Your comment</label>
+          <label htmlFor="your-message">Your comment</label>
           <textarea type="text" name="content" id="your-message" className="form-control" placeholder="Here is my message.."></textarea>
         </div>
 
         <div className="form-group">
-          <label for="your-name">From</label>
+          <label htmlFor="your-name">From</label>
           <input type="text" name="content" id="your-name" className="form-control" placeholder="Bob"/>
         </div>
         <input type="submit" value="Send" className="btn btn-primary"/>
