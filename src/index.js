@@ -14,8 +14,6 @@ function render(){
   ReactDOM.render(<App messages={messages}/>, document.getElementById('root'));
 }
 
-render();
-
 function get_messages(){
   // use fetch() here
 }
@@ -30,3 +28,5 @@ function send_message(message){
 window.send_message = send_message;
 
 registerServiceWorker();
+
+render();
